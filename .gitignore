@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Secrets
+.env
+**/.env
+
+# Build output
+dist/
+
+# Uploaded files (stored on a server volume, not in git)
+backend/uploads/promos/*
+backend/uploads/cafes/*
+backend/uploads/receipts/*
+
+# System
+.DS_Store
+Thumbs.db
+*.log
